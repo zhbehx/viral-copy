@@ -166,6 +166,20 @@ A：整个仓库是纯文本 prompt + 一个本地 Python 脚本，无网络请�
 **Q：能保证爆吗？**
 A：不能，也没有任何东西能。它保证的是：**每条内容都有一个明确的爆款假设，且可以被下一次 A/B 验证**。
 
+## 同一套方法论的其它 skill
+
+这个仓库只解「内容」这一段。同一套「硬约束 + 可验证脚本」的写法，还有职场侧的五个：
+
+| 仓库 | 解决什么 | 自检脚本 |
+| --- | --- | --- |
+| [`resume-tailor`](https://github.com/zhbehx/resume-tailor) | JD → 简历对岗改写 | 关键词覆盖率 / 量化率 / 弱动词 |
+| [`interview-coach`](https://github.com/zhbehx/interview-coach) | 8 个 STAR 故事 + 三层追问链 | STAR 四要素 / 数字 / 空话句 |
+| [`weekly-report`](https://github.com/zhbehx/weekly-report) | 周报月报 / 汇报 / 述职 | 结论位置 / 无数字 / 风险缺方案 |
+| [`slide-story`](https://github.com/zhbehx/slide-story) | PPT 叙事大纲与页标题 | 废页 / 判断句检测 / 页数 |
+| [`meeting-actions`](https://github.com/zhbehx/meeting-actions) | 纪要 → 决策 / 行动项 / 待定 | 责任人 / 产物 / 期限三要素 |
+
+共同点：**零依赖、中文优先、每个 skill 都带一个确定性检查脚本**——它们不是提示词汇编，是能被 CI 验证的工具。
+
 ## 贡献
 
 欢迎 PR：新增平台参考文件、扩词库、补案例。请保持「具体、可执行、无反模式」的写法——形容方法论好坏的最好方式是给例子。
