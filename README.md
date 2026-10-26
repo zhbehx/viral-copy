@@ -168,7 +168,7 @@ A：不能，也没有任何东西能。它保证的是：**每条内容都有�
 
 ## 同一套方法论的其它 skill
 
-这个仓库只解「内容」这一段。同一套「硬约束 + 可验证脚本」的写法，还有职场侧的五个：
+这个仓库只解「内容」这一段。同一套「硬约束 + 可验证脚本」的写法，还有工具侧与职场侧的六个：
 
 | 仓库 | 解决什么 | 自检脚本 |
 | --- | --- | --- |
@@ -177,6 +177,7 @@ A：不能，也没有任何东西能。它保证的是：**每条内容都有�
 | [`weekly-report`](https://github.com/zhbehx/weekly-report) | 周报月报 / 汇报 / 述职 | 结论位置 / 无数字 / 风险缺方案 |
 | [`slide-story`](https://github.com/zhbehx/slide-story) | PPT 叙事大纲与页标题 | 废页 / 判断句检测 / 页数 |
 | [`meeting-actions`](https://github.com/zhbehx/meeting-actions) | 纪要 → 决策 / 行动项 / 待定 | 责任人 / 产物 / 期限三要素 |
+| [`ai-tell`](https://github.com/zhbehx/ai-tell) | 检测文案的 AI 味并改写 | 六维度评分 / 逐句证据 / `--fail-over` |
 
 共同点：**零依赖、中文优先、每个 skill 都带一个确定性检查脚本**——它们不是提示词汇编，是能被 CI 验证的工具。
 
