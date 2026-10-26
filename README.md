@@ -168,7 +168,7 @@ A：不能，也没有任何东西能。它保证的是：**每条内容都有�
 
 ## 同一套方法论的其它 skill
 
-这个仓库只解「内容」这一段。同一套「硬约束 + 可验证脚本」的写法，还有工具侧与职场侧的六个：
+这个仓库只解「内容」这一段。同一套「硬约束 + 可验证脚本」的写法，还有工具侧、避坑侧与职场侧的十一个：
 
 | 仓库 | 解决什么 | 自检脚本 |
 | --- | --- | --- |
@@ -178,6 +178,11 @@ A：不能，也没有任何东西能。它保证的是：**每条内容都有�
 | [`slide-story`](https://github.com/zhbehx/slide-story) | PPT 叙事大纲与页标题 | 废页 / 判断句检测 / 页数 |
 | [`meeting-actions`](https://github.com/zhbehx/meeting-actions) | 纪要 → 决策 / 行动项 / 待定 | 责任人 / 产物 / 期限三要素 |
 | [`ai-tell`](https://github.com/zhbehx/ai-tell) | 检测文案的 AI 味并改写 | 六维度评分 / 逐句证据 / `--fail-over` |
+| [`jd-redflag`](https://github.com/zhbehx/jd-redflag) | 招聘 JD 红旗检测 | 风险分 / 面试该问什么 |
+| [`contract-redflag`](https://github.com/zhbehx/contract-redflag) | 租房与劳动合同风险条款 | 原文定位 / 缺失条款 |
+| [`meeting-cost`](https://github.com/zhbehx/meeting-cost) | 会议成本换算 | 单次 / 年成本 / 折合人力 |
+| [`privacy-scan`](https://github.com/zhbehx/privacy-scan) | 发布前隐私自查 | 12 类敏感信息 / 截图 10 项 |
+| [`tone-check`](https://github.com/zhbehx/tone-check) | 职场消息语气检测 | 五维风险 / 改写建议 |
 
 共同点：**零依赖、中文优先、每个 skill 都带一个确定性检查脚本**——它们不是提示词汇编，是能被 CI 验证的工具。
 
