@@ -193,3 +193,11 @@ A：不能，也没有任何东西能。它保证的是：**每条内容都有�
 ## License
 
 [MIT](./LICENSE) · 随意使用、修改、商用。
+
+---
+
+本仓库是 [zhbehx 的 Agent Skill 合集](https://github.com/zhbehx) 之一。
+
+觉得有用就点个 ⭐，是我继续加词库、加行业的动力。
+
+<!-- zhbehx-collection-footer -->
